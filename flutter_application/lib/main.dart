@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application/homeworks/zafer_2_application.dart';
+import 'package:flutter_application/homeworks/zafer_1_application.dart';
+import 'package:flutter_application/homeworks/zafer_3_application.dart';
+import 'package:flutter_application/homeworks/zafer_5_applicationsaadaadasad.dart';
 import 'package:flutter_application/pages/buttons_example.dart';
 import 'package:flutter_application/pages/column_example.dart';
 import 'package:flutter_application/pages/container_example.dart';
@@ -10,7 +14,7 @@ import 'package:flutter_application/pages/row_example.dart';
 // main, her zaman olmak zorundadır!
 void main() {
   // runApp, uygulamayı ayağa kaldırır
-  runApp(const ButtonsExample());
+  runApp(const Countrys());
   // MyApp sınıfını çağırır
 }
 
