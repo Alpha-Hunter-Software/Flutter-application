@@ -1,4 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application/homeworks/berkay/answers.dart';
+import 'package:flutter_application/homeworks/berkay/newanswers.dart';
+import 'package:flutter_application/homeworks/berkay/newanswersthree.dart';
+import 'package:flutter_application/homeworks/newanswerstwo.dart';
+
 import 'package:flutter_application/pages/buttons_example.dart';
 import 'package:flutter_application/pages/column_example.dart';
 import 'package:flutter_application/pages/container_example.dart';
@@ -10,7 +15,7 @@ import 'package:flutter_application/pages/row_example.dart';
 // main, her zaman olmak zorundadır!
 void main() {
   // runApp, uygulamayı ayağa kaldırır
-  runApp(const ButtonsExample());
+  runApp(const listViewHomework());
   // MyApp sınıfını çağırır
 }
 
