@@ -1,12 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application/homeworks/berkay/newanswers.dart';
+import 'package:flutter_application/homeworks/berkay/newanswersfour.dart';
 import 'package:flutter_application/homeworks/berkay/newanswersthree.dart';
+import 'package:flutter_application/homeworks/newanswerstwo.dart';
 //widget'ların hepsi material kütüphanesinden gelir
 
 // main, her zaman olmak zorundadır!
 void main() {
   // runApp, uygulamayı ayağa kaldırır
 
-  runApp(const listViewHomework());
+  runApp(const clickWidget());
 
   // MyApp sınıfını çağırır
 }

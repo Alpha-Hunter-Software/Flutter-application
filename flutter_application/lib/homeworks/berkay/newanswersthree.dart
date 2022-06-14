@@ -126,6 +126,108 @@ class listViewHomework extends StatelessWidget {
                 height: 20,
                 width: 100,
               ),
+              SizedBox(
+                height: 5,
+              ),
+              Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  Container(
+                    decoration: BoxDecoration(
+                      color: Colors.red,
+                      border: Border.all(color: Colors.black, width: 1),
+                    ),
+                    child: Padding(
+                      padding: const EdgeInsets.all(15),
+                      child: Text(
+                        "Türkiye",
+                        style: TextStyle(fontSize: 15),
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                    height: 50,
+                    width: 80,
+                  ),
+                  const SizedBox(
+                    height: 20,
+                    width: 20,
+                  ),
+                  Container(
+                    decoration: BoxDecoration(
+                      color: Colors.red,
+                      border: Border.all(color: Colors.black, width: 1),
+                    ),
+                    child: Padding(
+                      padding: const EdgeInsets.all(15),
+                      child: Text(
+                        "Türkiye",
+                        style: TextStyle(fontSize: 15),
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                    height: 50,
+                    width: 80,
+                  ),
+                  const SizedBox(
+                    height: 20,
+                    width: 20,
+                  ),
+                ],
+              ),
+              const SizedBox(
+                height: 20,
+                width: 50,
+              ),
+              Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Container(
+                    decoration: BoxDecoration(
+                      color: Colors.blueGrey,
+                      border: Border.all(color: Colors.black, width: 1),
+                    ),
+                    child: Padding(
+                      padding: const EdgeInsets.all(15),
+                      child: Text(
+                        "Türkiye",
+                        style: TextStyle(fontSize: 15),
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                    height: 50,
+                    width: 80,
+                  ),
+                  const SizedBox(
+                    height: 20,
+                    width: 20,
+                  ),
+                  Container(
+                    decoration: BoxDecoration(
+                      color: Colors.blueGrey,
+                      border: Border.all(color: Colors.black, width: 1),
+                    ),
+                    child: Padding(
+                      padding: const EdgeInsets.all(15),
+                      child: Text(
+                        "Türkiye",
+                        style: TextStyle(fontSize: 15),
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                    height: 50,
+                    width: 80,
+                  ),
+                  const SizedBox(
+                    height: 20,
+                    width: 20,
+                  ),
+                ],
+              ),
+              SizedBox(
+                height: 20,
+                width: 100,
+              ),
             ],
           ),
         ),

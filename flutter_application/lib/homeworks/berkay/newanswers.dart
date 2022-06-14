@@ -10,7 +10,7 @@ class homework extends StatelessWidget {
         home: Scaffold(
           backgroundColor: Colors.green,
           body: Padding(
-            padding: const EdgeInsets.all(10.0),
+            padding: const EdgeInsets.all(5.0),
             child: Center(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -99,6 +99,24 @@ class homework extends StatelessWidget {
                           height: 75,
                         ),
                       ]),
+                  /*  Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      children: [
+                        Container(
+                          decoration: const BoxDecoration(
+                              color: Colors.black, shape: BoxShape.circle),
+                          width: 75,
+                          height: 75,
+                        ),
+                        Container(
+                          decoration: const BoxDecoration(
+                              color: Colors.black, shape: BoxShape.circle),
+                          width: 75,
+                          height: 75,
+                        ),
+                      ]),
+                  */
                   Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       crossAxisAlignment: CrossAxisAlignment.center,
@@ -122,24 +140,11 @@ class homework extends StatelessWidget {
                       children: [
                         Container(
                           decoration: const BoxDecoration(
-                              color: Colors.black, shape: BoxShape.circle),
-                          width: 75,
-                          height: 75,
-                        ),
-                        Container(
-                          decoration: const BoxDecoration(
-                              color: Colors.black, shape: BoxShape.circle),
-                          width: 75,
-                          height: 75,
-                        ),
-                      ]),
-                  Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      crossAxisAlignment: CrossAxisAlignment.center,
-                      children: [
-                        Container(
-                          decoration: const BoxDecoration(
-                              color: Colors.black, shape: BoxShape.circle),
+                              /*  Image.asset(
+                                'assets/ss.jpg',
+                              ),*/
+                              color: Colors.black,
+                              shape: BoxShape.circle),
                           width: 75,
                           height: 75,
                         ),
