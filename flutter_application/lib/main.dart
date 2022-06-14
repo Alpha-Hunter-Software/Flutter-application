@@ -5,12 +5,13 @@ import 'package:flutter_application/pages/container_example.dart';
 import 'package:flutter_application/pages/listview_example.dart';
 import 'package:flutter_application/pages/padding_example.dart';
 import 'package:flutter_application/pages/row_example.dart';
+import 'package:flutter_application/pages/textfield_example.dart';
 //widget'ların hepsi material kütüphanesinden gelir
 
 // main, her zaman olmak zorundadır!
 void main() {
   // runApp, uygulamayı ayağa kaldırır
-  runApp(const ButtonsExample());
+  runApp(TextFieldExample());
   // MyApp sınıfını çağırır
 }
 
