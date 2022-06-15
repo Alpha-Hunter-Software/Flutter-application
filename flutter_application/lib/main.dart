@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application/homeworks/berkay/newanswers.dart';
 import 'package:flutter_application/homeworks/berkay/newanswersfour.dart';
 import 'package:flutter_application/homeworks/berkay/newanswersthree.dart';
+import 'package:flutter_application/navigation/page_a.dart';
 import 'package:flutter_application/pages/drawer_example.dart';
 
 import 'package:flutter_application/pages/textfield_example.dart';
@@ -14,7 +15,7 @@ import 'package:flutter_application/homeworks/berkay/newanswersthree.dart';
 void main() {
   // runApp, uygulamayı ayağa kaldırır
 
-  runApp(const DrawerExample());
+  runApp(const PageA());
 
   // MyApp sınıfını çağırır
 }
