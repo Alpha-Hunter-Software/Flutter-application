@@ -1,4 +1,10 @@
 import 'package:flutter/material.dart';
+
+import 'package:flutter_application/homeworks/berkay/newanswers.dart';
+import 'package:flutter_application/homeworks/berkay/newanswersfour.dart';
+import 'package:flutter_application/homeworks/berkay/newanswersthree.dart';
+import 'package:flutter_application/homeworks/newanswerstwo.dart';
+
 import 'package:flutter_application/pages/textfield_example.dart';
 import 'package:flutter_application/homeworks/berkay/newanswersthree.dart';
 
@@ -7,7 +13,8 @@ import 'package:flutter_application/homeworks/berkay/newanswersthree.dart';
 // main, her zaman olmak zorundadır!
 void main() {
   // runApp, uygulamayı ayağa kaldırır
-  runApp(TextFieldExample());
+
+  runApp(const clickWidget());
 
   // MyApp sınıfını çağırır
 }
