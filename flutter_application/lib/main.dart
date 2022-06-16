@@ -1,17 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application/homeworks/berkay/newanswersthree.dart';
-import 'package:flutter_application/homeworks/zafer_1_application.dart';
-import 'package:flutter_application/homeworks/zafer_2_application.dart';
-import 'package:flutter_application/homeworks/zafer_3_application.dart';
-import 'package:flutter_application/homeworks/zafer_4_application.dart';
-import 'package:flutter_application/homeworks/zafer_5_application.dart';
+
+import 'package:flutter_application/pages/textfield_example.dart';
+
 //widget'ların hepsi material kütüphanesinden gelir
 
 // main, her zaman olmak zorundadır!
 void main() {
   // runApp, uygulamayı ayağa kaldırır
 
-  runApp(const share());
+  runApp(TextFieldExample());
 
   // MyApp sınıfını çağırır
 }
