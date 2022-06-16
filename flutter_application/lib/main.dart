@@ -1,5 +1,11 @@
 import 'package:flutter/material.dart';
 
+import 'package:flutter_application/homeworks/berkay/newanswers.dart';
+import 'package:flutter_application/homeworks/berkay/newanswersfour.dart';
+import 'package:flutter_application/homeworks/berkay/newanswersthree.dart';
+import 'package:flutter_application/navigation/page_a.dart';
+import 'package:flutter_application/pages/drawer_example.dart';
+import 'package:flutter_application/pages/image_example.dart';
 import 'package:flutter_application/pages/textfield_example.dart';
 
 //widget'ların hepsi material kütüphanesinden gelir
@@ -8,7 +14,7 @@ import 'package:flutter_application/pages/textfield_example.dart';
 void main() {
   // runApp, uygulamayı ayağa kaldırır
 
-  runApp(TextFieldExample());
+  runApp(const ImageExample());
 
   // MyApp sınıfını çağırır
 }
