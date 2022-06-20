@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
+
 import 'package:flutter_application/homeworks/berkay/new_file/c/a/15.05.2022-a-.dart';
 import 'package:flutter_application/homeworks/berkay/old_file/newanswersfour.dart';
 import 'package:flutter_application/pages/column_example.dart';
+
+import 'package:flutter_application/navigation/page_a.dart';
+import 'package:flutter_application/pages/drawer_example.dart';
+import 'package:flutter_application/pages/image_example.dart';
 
 import 'package:flutter_application/pages/textfield_example.dart';
 

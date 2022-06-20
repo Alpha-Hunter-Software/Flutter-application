@@ -14,7 +14,7 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-  List countries = ["Brazil", "Nepal", "India", "China", "USA", "Canada"];
+  List countries = ["TURKEY", "USA", "İTALY", "JAPAN", "ÇORUM", "CANADA"];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
