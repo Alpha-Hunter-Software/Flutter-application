@@ -90,7 +90,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => BerkayPageB(),
+                              builder: (context) => HomeScreen(),
                             ),
                           );
                         },
@@ -101,7 +101,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => BerkayPageB(),
+                              builder: (context) => HomeScreen(),
                             ),
                           );
                         },
