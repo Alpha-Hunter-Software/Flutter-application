@@ -1,18 +1,23 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application/homeworks/berkay/new_file/home_screen.dart';
-import 'package:flutter_application/homeworks/berkay/new_file/register_screen.dart';
+import 'package:flutter_application/homeworks/berkay/new_file/recordings_were.dart';
 
-class WelcomeScreen extends StatefulWidget {
-  const WelcomeScreen({Key? key}) : super(key: key);
+class RegisterScreen extends StatefulWidget {
+  const RegisterScreen({Key? key}) : super(key: key);
 
   @override
-  State<WelcomeScreen> createState() => _WelcomeScreenState();
+  State<RegisterScreen> createState() => _RegisterScreenState();
 }
 
-class _WelcomeScreenState extends State<WelcomeScreen> {
-  final TextEditingController textEditingControllerID = TextEditingController();
-  final TextEditingController textEditingControllerPW = TextEditingController();
+class _RegisterScreenState extends State<RegisterScreen> {
+  final TextEditingController textEditingControllerUSE =
+      TextEditingController();
+  final TextEditingController textEditingControllerEMAIL =
+      TextEditingController();
+  final TextEditingController textEditingControllerPWW =
+      TextEditingController();
 
+//
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -23,8 +28,8 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              SizedBox(height: 50, width: 15),
-              Image.asset("assets/images/anime.png", height: 200, width: 150),
+              //  SizedBox(height: 50, width: 15),
+              // Image.asset("assets/images/anime.png", height: 200, width: 150),
               SizedBox(
                 height: 20,
                 width: 20,
@@ -41,7 +46,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                     height: 100,
                     width: 400,
                     child: TextField(
-                      controller: textEditingControllerID,
+                      controller: textEditingControllerUSE,
                       keyboardType: TextInputType.emailAddress,
                       style: TextStyle(
                         color: Colors.red.shade900,
@@ -52,7 +57,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                           border: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(20),
                               gapPadding: 1),
-                          helperText: "Email Adresinizi Giriniz."),
+                          helperText: "Username."),
                       //
                     ),
                   ),
@@ -64,7 +69,30 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                     height: 100,
                     width: 400,
                     child: TextField(
-                      controller: textEditingControllerPW,
+                      controller: textEditingControllerEMAIL,
+                      keyboardType: TextInputType.emailAddress,
+                      style: TextStyle(
+                        color: Colors.red.shade900,
+                        fontWeight: FontWeight.w900,
+                      ),
+                      cursorColor: Colors.red,
+                      decoration: InputDecoration(
+                          border: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(20),
+                              gapPadding: 1),
+                          helperText: "Email "),
+                      //
+                    ),
+                  ),
+                  Container(
+                    decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(15),
+                        boxShadow: [BoxShadow(color: Colors.black)]),
+                    height: 100,
+                    width: 400,
+                    child: TextField(
+                      controller: textEditingControllerPWW,
                       keyboardType: TextInputType.emailAddress,
                       style: TextStyle(
                         color: Colors.red.shade900,
@@ -76,7 +104,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                         border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(20),
                             gapPadding: 1),
-                        helperText: "Parolanızı Giriniz.",
+                        helperText: "Password",
                       ),
                       //
                     ),
@@ -97,14 +125,14 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                             ),
                           );
                         },
-                        child: const Text("Giriş Yap"),
+                        child: const Text("Register"),
                       ),
                       ElevatedButton(
                         onPressed: () {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => RegisterScreen(),
+                              builder: (context) => OkeyProfil(),
                             ),
                           );
                         },
