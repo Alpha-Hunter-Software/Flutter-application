@@ -22,13 +22,10 @@ class PageB extends StatelessWidget {
             ),
             ElevatedButton(
               onPressed: () {
-                //ileri gitmek için push
-                // sayfa yönlendirmeleri Navigator
                 Navigator.push(
-                  context, //nerden (bulunduğu sayfa)
+                  context,
                   MaterialPageRoute(
-                    //nereye rota bilgisi
-                    builder: (context) => const PageC(), // PageC sayfasına
+                    builder: (context) => const PageC(),
                   ),
                 );
               },

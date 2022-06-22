@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application/homeworks/berkay/newanswers.dart';
 import 'package:flutter_application/homeworks/berkay/newanswersfour.dart';
 import 'package:flutter_application/homeworks/berkay/newanswersthree.dart';
+import 'package:flutter_application/homeworks/z_1.dart';
+import 'package:flutter_application/homeworks/zafer/zafer_3_application.dart';
 import 'package:flutter_application/navigation/page_a.dart';
 import 'package:flutter_application/pages/drawer_example.dart';
 import 'package:flutter_application/pages/image_example.dart';
@@ -14,7 +16,7 @@ import 'package:flutter_application/pages/textfield_example.dart';
 void main() {
   // runApp, uygulamayı ayağa kaldırır
 
-  runApp(const ImageExample());
+  runApp(Loginpage());
 
   // MyApp sınıfını çağırır
 }
