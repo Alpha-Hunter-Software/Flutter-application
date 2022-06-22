@@ -45,51 +45,74 @@ class _Z3PageState extends State<Z3Page> {
                     borderRadius: BorderRadius.all(Radius.circular(10)),
                     shape: BoxShape.rectangle,
                     border: Border.all(color: Colors.white)),
-                height: 50,
-                width: 300,
-                child: TextField(
-                  controller: textEditingControllerEmail,
-                  keyboardType: TextInputType.emailAddress,
-                  maxLines: 1,
-                  textInputAction: TextInputAction.next,
-                  decoration: const InputDecoration(
-                    border: OutlineInputBorder(
-                        borderRadius: BorderRadius.all(Radius.circular(10)),
-                        borderSide: BorderSide(
-                          width: 1,
-                        )),
-                    labelText: 'Email adress',
-                  ),
-                ),
-              ),
-              const SizedBox(
-                height: 10,
-              ),
-              Container(
-                decoration: BoxDecoration(
-                    boxShadow: [
-                      BoxShadow(
-                        color: Colors.grey.withOpacity(1),
-                        spreadRadius: 3,
-                        blurRadius: 3,
-                      )
+                child: Padding(
+                  padding: const EdgeInsets.all(20.0),
+                  child: Column(
+                    children: [
+                      Container(
+                        decoration: BoxDecoration(
+                            boxShadow: [
+                              BoxShadow(
+                                color: Colors.grey.withOpacity(1),
+                                spreadRadius: 3,
+                                blurRadius: 3,
+                              )
+                            ],
+                            color: Colors.white,
+                            borderRadius: BorderRadius.all(Radius.circular(10)),
+                            shape: BoxShape.rectangle,
+                            border: Border.all(color: Colors.white)),
+                        height: 50,
+                        width: 300,
+                        child: TextField(
+                          controller: textEditingControllerEmail,
+                          keyboardType: TextInputType.emailAddress,
+                          maxLines: 1,
+                          textInputAction: TextInputAction.next,
+                          decoration: const InputDecoration(
+                            border: OutlineInputBorder(
+                                borderRadius:
+                                    BorderRadius.all(Radius.circular(10)),
+                                borderSide: BorderSide(
+                                  width: 1,
+                                )),
+                            labelText: 'Email adress',
+                          ),
+                        ),
+                      ),
+                      const SizedBox(
+                        height: 10,
+                      ),
+                      Container(
+                        decoration: BoxDecoration(
+                            boxShadow: [
+                              BoxShadow(
+                                color: Colors.grey.withOpacity(1),
+                                spreadRadius: 3,
+                                blurRadius: 3,
+                              )
+                            ],
+                            color: Colors.white,
+                            borderRadius: BorderRadius.all(Radius.circular(10)),
+                            shape: BoxShape.rectangle,
+                            border: Border.all(color: Colors.white)),
+                        height: 50,
+                        width: 300,
+                        child: TextField(
+                          maxLines: 1,
+                          textInputAction: TextInputAction.next,
+                          decoration: const InputDecoration(
+                            border: OutlineInputBorder(
+                                borderRadius:
+                                    BorderRadius.all(Radius.circular(10)),
+                                borderSide: BorderSide(
+                                  width: 1,
+                                )),
+                            labelText: 'Password',
+                          ),
+                        ),
+                      ),
                     ],
-                    color: Colors.white,
-                    borderRadius: BorderRadius.all(Radius.circular(10)),
-                    shape: BoxShape.rectangle,
-                    border: Border.all(color: Colors.white)),
-                height: 50,
-                width: 300,
-                child: TextField(
-                  maxLines: 1,
-                  textInputAction: TextInputAction.next,
-                  decoration: const InputDecoration(
-                    border: OutlineInputBorder(
-                        borderRadius: BorderRadius.all(Radius.circular(10)),
-                        borderSide: BorderSide(
-                          width: 1,
-                        )),
-                    labelText: 'Password',
                   ),
                 ),
               ),
