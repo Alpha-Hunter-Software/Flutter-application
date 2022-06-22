@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application/pages/overflow_error_examples.dart';
 import 'package:flutter_application/pages/package_example.dart';
 
 //widget'ların hepsi material kütüphanesinden gelir
@@ -7,7 +8,7 @@ import 'package:flutter_application/pages/package_example.dart';
 void main() {
   // runApp, uygulamayı ayağa kaldırır
 
-  runApp(PackageExample());
+  runApp(OverFlowErrorExamples());
 
   // MyApp sınıfını çağırır
 }
