@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'package:flutter_application/homeworks/zafer/z_2.dart';
 import 'package:flutter_application/homeworks/zafer/zafer_3_application.dart';
 
@@ -134,4 +135,13 @@ class _LoginpageState extends State<Loginpage> {
           ],
         )));
   }
+}
+
+Widget build(BuildContext context) {
+  return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+          appBar: AppBar(
+        title: Text(""),
+      )));
 }

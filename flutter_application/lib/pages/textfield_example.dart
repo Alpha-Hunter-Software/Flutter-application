@@ -11,6 +11,9 @@ class _TextFieldExampleState extends State<TextFieldExample> {
   final TextEditingController textEditingControllerEmail =
       TextEditingController();
 
+  final TextEditingController textEditingControllerPassword =
+      TextEditingController();
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -52,7 +55,8 @@ class _TextFieldExampleState extends State<TextFieldExample> {
                     const SizedBox(
                       height: 30,
                     ),
-                    const TextField(
+                    TextField(
+                      controller: textEditingControllerPassword,
                       keyboardType: TextInputType.text, //klayve tipi
                       obscureText: true, //yazılanı gizlemek için
                       obscuringCharacter: "*", //gizlenen harf seçeneği
