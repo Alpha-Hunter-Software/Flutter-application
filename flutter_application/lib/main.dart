@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_application/homeworks/z_1.dart';
+import 'package:flutter_application/homeworks/zafer/z_1.dart';
 import 'package:flutter_application/homeworks/zafer/zafer_3_application.dart';
 
 import 'package:flutter_application/homeworks/berkay/new_file/login_screen.dart';
