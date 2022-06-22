@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application/pages/card_checkbox_switch_example.dart';
 import 'package:flutter_application/pages/overflow_error_examples.dart';
 import 'package:flutter_application/pages/package_example.dart';
 
@@ -8,7 +9,7 @@ import 'package:flutter_application/pages/package_example.dart';
 void main() {
   // runApp, uygulamayı ayağa kaldırır
 
-  runApp(OverFlowErrorExamples());
+  runApp(CheckBoxExample());
 
   // MyApp sınıfını çağırır
 }
